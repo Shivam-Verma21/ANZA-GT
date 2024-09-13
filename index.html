@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANZA GT</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="video-container" id="video-container">
+      <video
+        src="Videos/video1.mp4"
+        autoplay
+        loop
+        muted
+        id="background-video"
+      ></video>
+      <nav>
+        <div class="logo">
+          <img
+            src="Images/logo.png"
+            alt=""
+            height="38px"
+            style="cursor: pointer"
+          />
+        </div>
+        <ul id="nav-list">
+          <li class="home">Home</li>
+          <li>About</li>
+          <li>Our services</li>
+          <li>Products</li>
+          <li>Contact</li>
+        </ul>
+        <button class="appointment-btn">Schedule an appointment now</button>
+        <img id="hamburger" width="30" src="Images/hamburger.svg" alt="">
+      </nav>
+      <div class="msg1">
+        <h1>Fueling the Future,<br />Strengthening Economies.</h1>
+      </div>
+      <button class="appointment-btn-2">Schedule an appointment now</button>
+    </div>
+
+    <div class="navigation" id="navigation">
+      <div id="close-icon" class="close-icon">
+        <img src="Images/close.svg" alt="">
+      </div>
+      <ul>
+        <li class="yellow">Home</li>
+        <li>About</li>
+        <li>Our services</li>
+        <li>Products</li>
+        <li>Contact</li>
+      </ul>
+
+      <button class="navigationBtn">Schedule an appointment now</button>
+    </div>
+
+    <div class="content" id="content">
+      <div class="grid-item item-1">
+        <img src="Images/arrow.png" alt="" class="arrow" />
+      </div>
+      <div class="grid-item item-2">
+        <h2>
+          With a <span class="highlight">five-decade legacy</span> in the GCC,
+          Anza Group, headquartered in Dubai, stands as a prominent corporate
+          entity in diverse industries.
+        </h2>
+      </div>
+      <div class="grid-item item-3">
+        <video
+          src="Videos/video2.mp4"
+          autoplay
+          loop
+          muted
+          id="dubai-view"
+        ></video>
+      </div>
+      <div class="grid-item item-4">
+        <p>
+          Our core expertise lies in the trading of petroleum products, active
+          engagement in the oil and gas sector, and the distribution of
+          petrochemicals and commodities across the globe. This commitment is
+          underpinned by our affiliation with the prestigious ANZA Investment
+          Group, reinforcing our position as a prominent presence in the
+          industry.
+        </p>
+      </div>
+    </div>
+
+    <div class="carousel" id="carousel">
+      <h1>Our industries</h1>
+      <div class="carousel-track">
+        <!-- card 1 -->
+        <div class="carousel-card">
+          <!-- <div class="divInsideCard"> -->
+            <h2>Chemical industry</h2>
+            <p>
+              Specializing in the distribution of liquid and solid chemicals to
+              industries.
+            </p>
+            <!-- <div class="divOfCardImg"> -->
+              <img src="Images/chemical industry.jpg" alt="" class="card-img" />
+            <!-- </div> -->
+          <!-- </div> -->
+        </div>
+
+        <!-- card 2 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Petroleum</h2>
+            <p>
+              Experienced oil and petroleum trading through transparent trade
+              practices.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/petroleum.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Metals and Minerals Industry</h2>
+            <p>
+              Proficient in sourcing and delivering a wide spectrum of metals and minerals to various sectors.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/metals.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Petrochemical</h2>
+            <p>
+              We help you gain the best overall insights on petrochemical
+              production and cost analysis.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/petrochemical.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Food Commodities</h2>
+            <p>
+              Expertise in the trade and distribution of food commodities,
+              offering transparent sourcing and supply chain solutions.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/food.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Duplicate cards for infinite scroll effect -->
+        <!-- card 1 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Chemical industry</h2>
+            <p>
+              Specializing in the distribution of liquid and solid chemicals to
+              industries.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/chemical industry.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Petroleum</h2>
+            <p>
+              Experienced oil and petroleum trading through transparent trade
+              practices.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/petroleum.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Metals and Minerals Industry</h2>
+            <p>
+              Proficient in sourcing and delivering a wide spectrum of metals
+              and minerals to various sectors.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/metals.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Petrochemical</h2>
+            <p>
+              We help you gain the best overall insights on petrochemical
+              production and cost analysis.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/petrochemical.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="carousel-card">
+          <div class="divInsideCard">
+            <h2>Food Commodities</h2>
+            <p>
+              Expertise in the trade and distribution of food commodities,
+              offering transparent sourcing and supply chain solutions.
+            </p>
+            <div class="divOfCardImg">
+              <img src="Images/food.jpg" alt="" class="card-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contentv2" id="contentv2">
+      <div class="excellence">
+        <div class="excellence-item-1">
+          <h2>A Culture of Excellence</h2>
+          <p>
+            With 50 years of experience, we bring deep industry knowledge.
+          </p>
+        </div>
+        <div class="excellence-item-2">
+          <img src="Images/50.png" alt="" />
+        </div>
+      </div>
+
+      <div class="separation"></div>
+
+      <div class="expertise">
+        <h2>Our Expertise</h2>
+
+        <div class="expertise-grid">
+          <div class="expertise-item expertise-item-1">
+            <img src="Images/exp1.jpg" alt="" />
+          </div>
+
+          <div class="expertise-item expertise-item-2">
+            <h3>Market Pioneers</h3>
+            <p>
+              We take pride in being true pioneers in the dynamic world of
+              trading. Our journey has been marked by a relentless commitment to
+              excellence, innovation, and a steadfast dedication to pushing the
+              boundaries of what's possible in the industry.<br /><br />
+              Unwavering Commitment to Trading Excellence:<br />
+              With a rich history of navigating market trends and evolving trade
+              landscapes, we have consistently demonstrated an unwavering
+              commitment to trading excellence.
+            </p>
+            <button>Leave Message</button>
+          </div>
+
+          <div class="expertise-item expertise-item-3">
+            <h3>Comprehensive Market Analysis</h3>
+            <p>
+              Our commitment to excellence extends to our unparalleled expertise
+              in comprehensive market analysis. With a foundation built on years
+              of invaluable experience, we take pride in offering a strategic
+              advantage to all stakeholders through meticulous examination of
+              market dynamics.
+              <br /><br />In-Depth Understanding: <br />Our comprehensive
+              approach ensures a nuanced understanding of market forces,
+              enabling us to provide informed recommendations tailored to your
+              specific needs.
+            </p>
+            <button>Leave Message</button>
+          </div>
+
+          <div class="expertise-item expertise-item-4">
+            <img src="Images/exp2.jpg" alt="" />
+          </div>
+
+          <div class="expertise-item expertise-item-5">
+            <img src="Images/exp3.jpg" alt="" />
+          </div>
+
+          <div class="expertise-item expertise-item-6">
+            <h3>Holistic Solutions</h3>
+            <p>
+              Our commitment to excellence goes beyond mere transactions – we
+              provide holistic solutions that cater to the diverse needs of our
+              clients. <br /><br />Diversified Portfolio: <br />Explore a world
+              of possibilities with our diverse range of services. From
+              petroleum trading to strategic sector engagement, our portfolio is
+              designed to address the multifaceted demands of >the modern
+              business landscape. We pride ourselves on being your one-stop
+              solution provider.
+            </p>
+            <button>Leave Message</button>
+          </div>
+        </div>
+
+        <div class="expertise-grid expertise-grid-two">
+          <div class="expertise-item expertise-item-1">
+            <img src="Images/exp1.jpg" alt="" />
+          </div>
+
+          <div class="expertise-item expertise-item-2">
+            <h3>Market Pioneers</h3>
+            <p>
+              We take pride in being true pioneers in the dynamic world of
+              trading. Our journey has been marked by a relentless commitment to
+              excellence, innovation, and a steadfast dedication to pushing the
+              boundaries of what's possible in the industry.<br /><br />
+              Unwavering Commitment to Trading Excellence:<br />
+              With a rich history of navigating market trends and evolving trade
+              landscapes, we have consistently demonstrated an unwavering
+              commitment to trading excellence.
+            </p>
+            <button>Leave Message</button>
+          </div>
+
+          <div class="expertise-item expertise-item-4">
+            <img src="Images/exp2.jpg" alt="" />
+          </div>
+
+          <div class="expertise-item expertise-item-3">
+            <h3>Comprehensive Market Analysis</h3>
+            <p>
+              Our commitment to excellence extends to our unparalleled expertise
+              in comprehensive market analysis. With a foundation built on years
+              of invaluable experience, we take pride in offering a strategic
+              advantage to all stakeholders through meticulous examination of
+              market dynamics.
+              <br /><br />In-Depth Understanding: <br />Our comprehensive
+              approach ensures a nuanced understanding of market forces,
+              enabling us to provide informed recommendations tailored to your
+              specific needs.
+            </p>
+            <button>Leave Message</button>
+          </div>
+
+          <div class="expertise-item expertise-item-5">
+            <img src="Images/exp3.jpg" alt="" />
+          </div>
+
+          <div class="expertise-item expertise-item-6">
+            <h3>Holistic Solutions</h3>
+            <p>
+              Our commitment to excellence goes beyond mere transactions – we
+              provide holistic solutions that cater to the diverse needs of our
+              clients. <br /><br />Diversified Portfolio: <br />Explore a world
+              of possibilities with our diverse range of services. From
+              petroleum trading to strategic sector engagement, our portfolio is
+              designed to address the multifaceted demands of >the modern
+              business landscape. We pride ourselves on being your one-stop
+              solution provider.
+            </p>
+            <button>Leave Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" id="footer">
+      <div class="separationTwo"></div>
+      <h1>
+        <span class="highlight">Your Needs Are Our Priority</span> - We're Here
+        to Assist
+      </h1>
+      <div class="separationTwo"></div>
+    </div>
+
+    <div class="copyright" id="copyright">
+      <p>Copyright ©2023. All rights reserved</p>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
