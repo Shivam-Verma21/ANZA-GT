@@ -6,31 +6,14 @@ hamburger.addEventListener("click",()=>{
 
   //navigation
   var navigation = document.getElementById("navigation");
-  navigation.style.display = "block";
+  // navigation.style.display = "block";
+  navigation.classList.toggle("show");
 
-  // close-icon
-  var closeIcon = document.getElementById("close-icon");
-  closeIcon.style.display = "block";
-
-  //content
-  var content = document.getElementById("content");
-  content.style.display = "none";
-
-  //carousel
-  var carousel = document.getElementById("carousel");
-  carousel.style.display = "none";
-
-  //contentv2
-  var contentv2 = document.getElementById("contentv2");
-  contentv2.style.display = "none";
-
-  //footer
-  var footer = document.getElementById("footer");
-  footer.style.display = "none";
-
-  //copyright
-  var copyright = document.getElementById("copyright");
-  copyright.style.display = "none";
+  //   if (navigation.style.display === "block") {
+  //     navigation.style.display = "none";
+  // } else {
+  //     navigation.style.display = "block";
+  // }
 })
 
 
@@ -42,29 +25,9 @@ closeIcon.addEventListener("click",()=>{
 
   //navigation
   var navigation = document.getElementById("navigation");
-  navigation.style.display = "none";
+  // navigation.style.display = "none";
+  navigation.classList.toggle("show");
 
-  // close-icon
-  var closeIcon = document.getElementById("close-icon");
-  closeIcon.style.display = "none";
+  // navigation.classList.add("navigationClose");
 
-  //content
-  var content = document.getElementById("content");
-  content.style.display = "block";
-
-  //carousel
-  var carousel = document.getElementById("carousel");
-  carousel.style.display = "block";
-
-  //contentv2
-  var contentv2 = document.getElementById("contentv2");
-  contentv2.style.display = "block";
-
-  //footer
-  var footer = document.getElementById("footer");
-  footer.style.display = "block";
-
-  //copyright
-  var copyright = document.getElementById("copyright");
-  copyright.style.display = "block";
 })
