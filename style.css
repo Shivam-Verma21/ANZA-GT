@@ -446,20 +446,27 @@ nav > ul > li:hover {
 
 .expertise-item p {
   color: rgb(156, 159, 167);
-  padding-top: 90px;
+  padding-top: 50px;
   font-size: 20px;
   font-weight: 500;
 }
 
 .expertise-item button {
   border-radius: 30px;
-  padding: 15px 20px;
+  padding: 15px 18px;
   font-size: 17px;
   margin-top: 40px;
   cursor: pointer;
   border: none;
   outline: none;
   font-weight: normal;
+  width: 170px;
+}
+
+.expertise-flex{
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
 }
 
 .expertise-item button:hover {
@@ -671,8 +678,9 @@ nav > ul > li:hover {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding-left: 5px;
-      padding-top: 5px;
+      /* padding-left: 5px;
+      padding-top: 5px; */
+      padding: 20px;
     }
     
     .expertise-item p{
