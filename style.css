@@ -446,7 +446,7 @@ nav > ul > li:hover {
 
 .expertise-item p {
   color: rgb(156, 159, 167);
-  padding-top: 50px;
+  padding-top: 30px;
   font-size: 20px;
   font-weight: 500;
 }
@@ -638,6 +638,14 @@ nav > ul > li:hover {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    .excellence-item-1 > h2{
+      text-align: center;
+    }
+
+    .excellence-item-1 > p{
+      text-align: center;
     }
 
     .excellence-item-2{
