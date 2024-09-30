@@ -606,6 +606,21 @@ nav > ul > li:hover {
   .msg1 h1{
     font-size: 40px;
   }
+
+  .expertise-item h3{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .expertise-item p{
+    font-size: 15px;
+  }
+
+  .expertise-item button{
+    font-size: 15px;
+    width: 160px;
+    border-radius: 999px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -697,7 +712,7 @@ nav > ul > li:hover {
     
     .expertise-item h3{
       margin-top: 10px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     .expertise-item button{
@@ -845,11 +860,11 @@ nav > ul > li:hover {
   }
 
   .excellence h2{
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .excellence p{
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .excellence img{
@@ -861,16 +876,21 @@ nav > ul > li:hover {
   }
 
   .expertise-item h3{
-    font-size: 40px;
+    font-size: 45px;
+    margin-top: 10px;
   }
 
   .expertise-item p{
     font-size: 30px;
+    padding-top: 50px;
   }
 
   .expertise-item button{
     font-size: 27px;
     margin-top: 110px;
+    width: 250px;
+    padding: 20px 22px;
+    border-radius: 999px;
   }
 }
 
