@@ -59,7 +59,7 @@ nav > ul > li {
   font-size: 16px;
   color: white;
   transition: all 300ms;
-  transition-delay: 15ms;
+  transition-delay: 150ms;
 }
 
 .home {
@@ -90,7 +90,7 @@ nav > ul > li:hover {
   border: none;
   z-index: 1;
   transition: all 300ms;
-  transition-delay: 15ms;
+  transition-delay: 150ms;
 }
 
 .appointment-btn-2 {
@@ -104,7 +104,7 @@ nav > ul > li:hover {
   outline: none;
   border: none;
   transition: all 300ms;
-  transition-delay: 15ms;
+  transition-delay: 150ms;
 }
 
 .appointment-btn:hover {
@@ -183,7 +183,7 @@ nav > ul > li:hover {
   margin-left: 3%;
   margin-right: 3%;
   transition: all 300ms;
-  transition-delay: 15ms;
+  transition-delay: 150ms;
 }
 
 .navigationBtn:hover{
@@ -442,6 +442,7 @@ nav > ul > li:hover {
   height: 100%;
   width: 100%;
   transition: transform 0.3s ease;
+  transition-delay: 150ms;
 }
 
 .expertise-item img:hover {
@@ -451,28 +452,33 @@ nav > ul > li:hover {
 .expertise-item h3 {
   color: white;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .expertise-item p {
   color: rgb(156, 159, 167);
-  padding-top: 30px;
-  font-size: 20px;
-  font-weight: 500;
+  padding-top: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.bold{
+  font-weight: 800;
 }
 
 .expertise-item button {
-  border-radius: 30px;
-  padding: 15px 18px;
-  font-size: 17px;
+  border-radius: 9999px;
+  padding: 13px 23px;
+  font-size: 16px;
   margin-top: 40px;
   cursor: pointer;
   border: none;
   outline: none;
-  font-weight: normal;
+  font-weight: 500;
   width: 170px;
   transition: all 300ms;
-  transition-delay: 15ms;
+  transition-delay: 150ms;
 }
 
 .expertise-flex{
@@ -901,6 +907,7 @@ nav > ul > li:hover {
   .expertise-item p{
     font-size: 30px;
     padding-top: 50px;
+    line-height: 38px;
   }
 
   .expertise-item button{
@@ -908,7 +915,7 @@ nav > ul > li:hover {
     margin-top: 110px;
     width: 250px;
     padding: 20px 22px;
-    border-radius: 999px;
+    border-radius: 9999px;
   }
 }
 
@@ -916,6 +923,14 @@ nav > ul > li:hover {
   .excellence img{
     height: 200px;
   }
+
+  /* .expertise-item p{
+    font-size: 18px;
+  } */
+
+  /* .expertise-item button{
+    font-size: 18px;
+  } */
 }
 
 @media (min-width: 1024px) { 
