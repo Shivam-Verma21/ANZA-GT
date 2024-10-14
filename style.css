@@ -235,14 +235,15 @@ nav > ul > li:hover {
 .item-2 {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  color: gray;
+  color: #858585;
   padding: 5px;
-  font-size: 25px;
   padding-top: 20px;
 }
 
-.item-2 h2{
-  font-weight: normal;
+.item-2 h1{
+  font-weight: 400;
+  font-size: 30px;
+  /* line-height: 40px; */
 }
 
 .item-3 {
@@ -255,10 +256,11 @@ nav > ul > li:hover {
 .item-4 {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
-  color: rgb(120, 120, 120);
-  font-size: 20px;
+  color: #666666;
+  font-size: 18px;
   padding: 5px;
   margin-bottom: 40px;
+  font-weight: 400;
 }
 
 .arrow {
@@ -660,7 +662,6 @@ nav > ul > li:hover {
     display: none;
   }
 
-
   /* CONTENTV2 */
     /* EXCELLENCE */
     .excellence{
@@ -853,12 +854,12 @@ nav > ul > li:hover {
     font-size: 75px;
   }
 
-  .item-2{
+  /* .item-2{
     font-size: 35px;
-  }
+  } */
   
   .item-4{
-    font-size: 29px;
+    font-size: 27px;
   }
 
   .carousel-card{
@@ -922,6 +923,11 @@ nav > ul > li:hover {
 @media (min-width: 768px) { 
   .excellence img{
     height: 200px;
+  }
+
+  .item-2 > h1{
+    font-size: 39px;
+    line-height: 48px;
   }
 
   /* .expertise-item p{
