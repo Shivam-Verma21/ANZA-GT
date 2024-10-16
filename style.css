@@ -358,6 +358,24 @@ nav > ul > li:hover {
   }
 }
 
+@keyframes scroll2 {
+  20% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-100%);
+  }
+  80% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .card-img {
   margin-top: 40px;
   width: 200px;
@@ -774,14 +792,15 @@ nav > ul > li:hover {
 
   .carousel-track {
     padding-left: 50px;
+    animation-duration: 15s;
   }
 
   .carousel-card {
     flex: 1 0 auto;
-    width: 100%; 
+    width: 50%; 
     padding: 15px;
     font-size: 21px;
-    height: auto;
+    height: 350px;
   }
 
   .carousel-card p {
@@ -799,7 +818,21 @@ nav > ul > li:hover {
 
 @media (max-width: 600px){
   .carousel-card {
-    width: 100%;
+    width: fit-content;
+  }
+
+  /* .carousel-track{
+    animation-name: scroll2;
+    animation-timing-function: steps(5, end);
+    animation-duration: 20s;
+  } */
+
+  .carousel-card h2{
+    font-size: 23px;
+  }
+
+  .carousel-card p{
+    font-size: 18px;
   }
 }
 
