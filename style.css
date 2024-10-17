@@ -860,18 +860,18 @@ nav > ul > li:hover {
 
 @media (min-width:1600px) {
   .appointment-btn{
-    font-size: 26px;
+    font-size: 20px;
     right: 90px;
-    padding: 18px 21px;
+    padding: 17px 19px;
   }
 
   .logo > img{
     height: 58px;
   }
 
-  /* nav > ul > li{
-    font-size: 26px;
-  } */
+  nav > ul > li{
+    font-size: 18px;
+  }
 
   nav > ul{
     gap: 25px;
@@ -928,22 +928,22 @@ nav > ul > li:hover {
   }
 
   .expertise-item h3{
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 10px;
   }
 
   .expertise-item p{
-    font-size: 30px;
+    font-size: 25px;
     /* padding-top: 50px; */
     padding-right: 80px;
     line-height: 38px;
   }
 
   .expertise-item button{
-    font-size: 27px;
+    font-size: 25px;
     margin-top: 110px;
     width: 250px;
-    padding: 20px 22px;
+    padding: 22px 32px;
     border-radius: 9999px;
   }
 
